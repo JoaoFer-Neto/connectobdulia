@@ -41,7 +41,7 @@ export function App() {
 						</p>
 					</div>
 				</div>
-				<div className="p-1 m-2 mt-3 flex gap-6">
+				<div className="p-1 m-2 mt-2 flex gap-6">
 					<div className="p-5 flex flex-col gap-5 rounded-md  center w-6/10 bg-zinc-100">
 						<div className="flex gap-2">
 							<Button className="rounded-lg bg-indigo-100 p-4 center h-22 w-22 text-lg">
