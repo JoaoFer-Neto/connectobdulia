@@ -16,7 +16,19 @@ import { Button } from "@/components/ui/button";
 export function App() {
 	return (
 		<>
-			<div className="p-4 h-25 bg-linear-65 from-violet-500 to-indigo-700 m-2 rounded-md flex items-center gap-2">
+			<div className="flex md:hidden items-center justify-center h-screen px-6">
+				<div className="text-center">
+					<h1 className="text-3xl font-bold text-red-500 mb-4">
+						Indisponível para dispositivos móveis
+					</h1>
+
+					<p className="text-gray-600 text-lg">
+						Este sistema ainda não possui suporte para celulares.
+					</p>
+				</div>
+			</div>
+
+			<div className="p-4 h-25 bg-linear-65 from-violet-500 to-indigo-700 m-2 rounded-md items-center gap-2 hidden md:flex">
 				<Button className="rounded-lg bg-zinc-100 p-3 center h-full w-18 text-lg">
 					<House strokeWidth={3} className="size-full text-indigo-700" />
 				</Button>
