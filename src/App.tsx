@@ -27,7 +27,7 @@ export function App() {
 					</p>
 				</div>
 			</div>
-			<div className="hidden md:flex">
+			<div className="hidden md:flex flex-col">
 				<div className="p-4 h-25 bg-linear-65 from-violet-500 to-indigo-700 m-2 rounded-md items-center flex gap-2 ">
 					<Button className="rounded-lg bg-zinc-100 p-3 center h-full w-18 text-lg">
 						<House strokeWidth={3} className="size-full text-indigo-700" />
