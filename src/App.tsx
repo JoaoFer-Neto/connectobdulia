@@ -41,7 +41,7 @@ export function App() {
 						</p>
 					</div>
 				</div>
-				<div className="p-1 m-2 mt-2 flex gap-6">
+				<div className="p-1 m-2 mt-2 flex gap-6 min-h-[80dvh]">
 					<div className="p-5 flex flex-col gap-5 rounded-md  center w-6/10 bg-zinc-100">
 						<div className="flex gap-2">
 							<Button className="rounded-lg bg-indigo-100 p-4 center h-22 w-22 text-lg">
@@ -151,7 +151,7 @@ export function App() {
 						</div>
 					</div>
 
-					<div className="p-5 rounded-md  center w-4/10 bg-zinc-100">
+					<div className="p-5 rounded-md  center h-auto w-4/10 bg-zinc-100">
 						<div className="ml-1 flex gap-2">
 							<Button className="rounded-md bg-indigo-100 p-4 center h-20 w-20 text-lg">
 								<Lk strokeWidth={3} className="size-10 text-indigo-500" />
