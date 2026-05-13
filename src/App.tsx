@@ -160,7 +160,7 @@ export function App() {
 								<h2 className="font-extrabold text-lg text-indigo-600 p-1 self-start">
 									Disciplinas
 								</h2>
-								<p>Acesse o conteúdo de cada disciplina</p>
+								<p>Acesse a planilha de cada disciplina</p>
 							</div>
 						</div>
 						<a
